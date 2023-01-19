@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Reset CSS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>CSS Reset</h1>
+        </div>
+        <div class="codeBlock">
+                <p>
+                    <code>
+<span class="selector-all">*</span>{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+<span class="selector-all">*</span>,<span class="selector-all">*</span>:<span class="pseudo-class">before</span>,<span class="selector-all">*</span>:<span class="pseudo-class">after</span>{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:<span class="pseudo-class">focus</span>,:<span class="pseudo-class">active</span>{
+    outline: none;
+}
+
+<span class="selector-tag">a</span>:<span class="pseudo-class">focus</span>,<span class="selector-tag">a</span>:<span class="pseudo-class">active</span>{
+    outline: none;
+}
+
+<span class="selector-tag">nav</span>,<span class="selector-tag">footer</span>,<span class="selector-tag">header</span>,<span class="selector-tag">aside</span>{
+    display: block;
+}
+
+<span class="selector-tag">html</span>,<span class="selector-tag">body</span>{
+    height:100%;
+    width:100%;
+    font-size:100%;
+    line-height:1;
+    font-size:14px
+    ;-ms-text-size-adjust:100%;
+    -moz-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+}
+
+<span class="selector-tag">input</span>,<span class="selector-tag">button</span>,<span class="selector-tag">textarea</span>{
+    font-family:inherit;
+}
+
+<span class="selector-tag">input</span>::-ms-clear{
+    display: none;
+}
+
+<span class="selector-tag">button</span>{
+    cursor: pointer;
+}
+
+<span class="selector-tag">button</span>::<span class="pseudo-class">-moz-focus-inner</span>{
+    padding:0;
+    border:0;
+}
+
+<span class="selector-tag">a</span>,<span class="selector-tag">a</span>:<span class="pseudo-class">visited</span>{
+    text-decoration: none;
+}
+
+<span class="selector-tag">a</span>:<span class="pseudo-class">hover</span>{
+    text-decoration: none;
+}
+
+<span class="selector-tag">ul li</span> {
+    list-style: none;
+}
+
+<span class="selector-tag">img</span>{
+    vertical-align: top;
+}
+
+<span class="selector-tag">h1</span>,<span class="selector-tag">h2</span>,<span class="selector-tag">h3</span>,<span class="selector-tag">h4</span>,<span class="selector-tag">h5</span>,<span class="selector-tag">h6</span>{
+    font-size:inherit;
+    font-weight: inherit;
+}
+            </code>
+        </p>
+        </div>
+    </div>
+</body>
+</html>
