@@ -20,11 +20,22 @@ body{
 }
 
 .container{
-    margin: 20px 20% 0 20%;
+    margin: 20px 20%;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-    min-height: 95%;
     padding: 20px;
     background-color: white;
+}
+
+@media(max-width:974px){
+    .container{
+        margin: 20px 5%;
+    }
+}
+
+@media(max-width:412px){
+    .container{
+        margin: 0;
+    }
 }
 
 .title{
